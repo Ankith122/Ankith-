@@ -1,0 +1,46 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .card h3 {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+  }
+  
+  .card p {
+    font-size: 1em;
+    color: #555;
+  }
+ 
+  .skill-list{
+    display: flex;
+    padding: 20px;
+    width: calc(33.33% - 20px); 
+    box-sizing: border-box; 
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  @media (max-width: 768px) {
+    .skill-list {
+      flex-direction: column;
+      align-items: center;
+      width: calc(50% - 20px); 
+    }
+  }
